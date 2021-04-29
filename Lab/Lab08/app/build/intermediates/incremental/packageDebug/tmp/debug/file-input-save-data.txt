@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu Apr 29 15:08:16 BDT 2021
+0.baseType=DIRECTORY
+0.base=G\:\\Android files\\Android 2021.2\\android-fundamentals-apps-v2-master\\android-fundamentals-apps-v2-master\\PowerReceiver\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1

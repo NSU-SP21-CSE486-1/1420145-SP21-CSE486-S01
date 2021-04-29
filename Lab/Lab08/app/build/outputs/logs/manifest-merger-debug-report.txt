@@ -1,0 +1,103 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\660bbf5362b0ab30fda3c0f90c5a28ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\33c0fb175d86d28ccf02e80528cca8cf\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9acc867d8fdb9191bdc2d295f3dd6474\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2e4122f22c42e7ebc406c2463ee43d05\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fa5328887faeb325ad49dd64381a2c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c8e80eb47aa0e041ffeaabcf9828ad6b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3de2993d4cbb69cf1f2a9a2cf392e2c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e76d8a706abb3b9b421b529d5d406193\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c4166feb5b1a3a7fbc4dfbf1c32622e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0602a9da279e3c27b1bcdea3b418149d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5faf78e91c6b104fbc33cb7b94fcddb0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f08797040198437ccde6449c3e68131b\AndroidManifest.xml:17:1-22:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+	package
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:17:5-53
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:1-35:12
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:16:11-69
+application
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:19:5-33:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\33c0fb175d86d28ccf02e80528cca8cf\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\33c0fb175d86d28ccf02e80528cca8cf\AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:22:9-41
+	android:roundIcon
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:23:9-54
+	android:icon
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:25:9-40
+activity#com.android.fundamentals.powerreceiver.MainActivity
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:26:9-32:20
+	android:name
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:26:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml:30:27-74
+uses-sdk
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\660bbf5362b0ab30fda3c0f90c5a28ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\660bbf5362b0ab30fda3c0f90c5a28ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\33c0fb175d86d28ccf02e80528cca8cf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\33c0fb175d86d28ccf02e80528cca8cf\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9acc867d8fdb9191bdc2d295f3dd6474\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\9acc867d8fdb9191bdc2d295f3dd6474\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2e4122f22c42e7ebc406c2463ee43d05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\2e4122f22c42e7ebc406c2463ee43d05\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fa5328887faeb325ad49dd64381a2c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\2fa5328887faeb325ad49dd64381a2c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c8e80eb47aa0e041ffeaabcf9828ad6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\c8e80eb47aa0e041ffeaabcf9828ad6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3de2993d4cbb69cf1f2a9a2cf392e2c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\3de2993d4cbb69cf1f2a9a2cf392e2c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e76d8a706abb3b9b421b529d5d406193\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e76d8a706abb3b9b421b529d5d406193\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c4166feb5b1a3a7fbc4dfbf1c32622e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\7c4166feb5b1a3a7fbc4dfbf1c32622e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0602a9da279e3c27b1bcdea3b418149d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\0602a9da279e3c27b1bcdea3b418149d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5faf78e91c6b104fbc33cb7b94fcddb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5faf78e91c6b104fbc33cb7b94fcddb0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f08797040198437ccde6449c3e68131b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Oviex\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\f08797040198437ccde6449c3e68131b\AndroidManifest.xml:20:5-44
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		ADDED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
+		INJECTED from G:\Android files\Android 2021.2\android-fundamentals-apps-v2-master\android-fundamentals-apps-v2-master\PowerReceiver\app\src\main\AndroidManifest.xml
