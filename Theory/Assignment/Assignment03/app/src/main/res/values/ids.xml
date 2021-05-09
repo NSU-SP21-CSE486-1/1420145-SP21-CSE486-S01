@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="nameinput" type="id">nameinput</item>
+    <!--<item name="nameinput" type="id">nameinput</item>
     <item name="emailinputET" type="id">emailinputET</item>
     <item name="idinputET" type="id">idinputET</item>
     <item name="passwoedinput" type="id">passwoedinput</item>
@@ -10,5 +10,5 @@
     <item name="dept_spinner" type="id">dept_spinner</item>
     <item name="nid_input" type="id">nid_input</item>
     <item name="present_address_input" type="id">present_address_input</item>
-    <item name="permanent_address_input" type="id">permanent_address_input</item>
+    <item name="permanent_address_input" type="id">permanent_address_input</item>-->
 </resources>
