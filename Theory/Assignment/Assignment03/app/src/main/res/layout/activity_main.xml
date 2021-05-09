@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     tools:context=".MainActivity">
 
-    <EditText
+    <!--<EditText
         android:id="@+id/nameinput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,18 +27,7 @@
         android:inputType="textWebEmailAddress|textPersonName"
         app:layout_constraintTop_toBottomOf="@+id/nameinput"
         tools:layout_editor_absoluteX="0dp" />
-
-
-    <EditText
-        android:id="@+id/idinputET"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:hint="id"
-        android:inputType="textWebEmailAddress|textPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/nameinput"
-        tools:layout_editor_absoluteX="1dp" />
+-->
 
     <!--<Spinner
         android:id="@+id/dept_spinner"
@@ -58,18 +48,43 @@
         tools:ignore="UnknownId" />
 -->
 
+   <!-- <EditText
+        android:id="@+id/idinputET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="id"
+        android:inputType="textWebEmailAddress|textPersonName"
+        app:layout_constraintTop_toBottomOf="@+id/nameinput"
+        tools:layout_editor_absoluteX="0dp" />
+
     <EditText
         android:id="@+id/passwoedinput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="password"
         android:inputType="textWebPassword"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/emailinputET" />
 
-    <EditText
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwoedinput"
+        app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<EditText
         android:id="@+id/dept_name_imput"
         android:layout_width="201dp"
         android:layout_height="39dp"
@@ -81,7 +96,7 @@
         app:layout_constraintHorizontal_bias="0.033"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwoedinput"
-        app:layout_constraintVertical_bias="0.309"
+        app:layout_constraintVertical_bias="0.644"
         tools:ignore="MissingConstraints" />
 
     <EditText
@@ -150,7 +165,7 @@
         android:id="@+id/permanent_address_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="96dp"
+        android:layout_marginBottom="40dp"
         android:ems="10"
         android:hint="Permanent Address"
         android:inputType="textPersonName"
@@ -160,6 +175,8 @@
         app:layout_constraintStart_toStartOf="parent"
 
         />
+-->
+
 
     <!--<Button
         android:id="@+id/login_Button"
@@ -177,4 +194,4 @@
 
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
