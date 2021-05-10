@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity implements LoginFragment.UserAuthListener, StudentListFragment
-        .AddStudentListener {
+        .AddStudentListener , AddStudentFragment.OnAddStudentSuccessListener {
     /*private EditText emailET,passwordET,birthdayET,phoneET,nidET,presentAddET,permanentAddET,
             nameET,idET,deptET;*/
 
@@ -55,6 +55,16 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.Use
         AddStudentFragment addStudentFragment= new AddStudentFragment();
         ft.replace(R.id.fragmentContainer,addStudentFragment);
         ft.addToBackStack(null);
+        ft.commit();
+
+    }
+
+    @Override
+    public void onAddStudentSuccessful() {
+
+        FragmentTransaction ft=fragmentManager.beginTransaction();
+        StudentListFragment studentListFragment=new StudentListFragment();
+        ft.replace(R.id.fragmentContainer,studentListFragment);
         ft.commit();
 
     }

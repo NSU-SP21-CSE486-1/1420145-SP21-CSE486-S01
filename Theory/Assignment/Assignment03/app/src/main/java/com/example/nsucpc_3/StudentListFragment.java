@@ -6,6 +6,7 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
@@ -13,6 +14,16 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class StudentListFragment extends Fragment {
@@ -20,6 +31,12 @@ public class StudentListFragment extends Fragment {
     private FloatingActionButton fab;
     private Context context;
     private AddStudentListener listener;
+    private StudentAdapter adapter;
+    private DatabaseReference rootRef;
+    private DatabaseReference userRef;
+    private DatabaseReference userIdRef;
+    private DatabaseReference studentRef;
+    private FirebaseUser currentUser;
 
 
     public StudentListFragment() {
@@ -36,6 +53,12 @@ public class StudentListFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        rootRef = FirebaseDatabase.getInstance().getReference();
+        userRef = rootRef.child("Users");
+        currentUser = FirebaseAuth.getInstance().getCurrentUser();
+        userIdRef = userRef.child(currentUser.getUid());
+        studentRef = userIdRef.child("Students");
 
     }
 
@@ -56,6 +79,28 @@ public class StudentListFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 listener.onAddBtnClicked();
+
+            }
+        });
+        studentRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+
+                List<Student> studentList = new ArrayList<>();
+                for (DataSnapshot d : snapshot.getChildren()){
+                    Student s = d.getValue(Student.class);
+                    studentList.add(s);
+                }
+
+                adapter = new StudentAdapter(context, studentList);
+                LinearLayoutManager llm = new LinearLayoutManager(context);
+                recyclerView.setLayoutManager(llm);
+                recyclerView.setAdapter(adapter);
+
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
 
             }
         });
