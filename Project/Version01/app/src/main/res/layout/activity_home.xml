@@ -7,4 +7,55 @@
     android:background="@drawable/login"
     tools:context=".HomeActivity">
 
+    <Button
+        android:id="@+id/sign_up"
+        android:layout_width="184dp"
+        android:layout_height="44dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="60"
+        android:shadowDy="20"
+        android:shadowRadius="50"
+        android:text="Sign up"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sign_in"
+        android:layout_width="184dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="36dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="60"
+        android:shadowDy="20"
+        android:shadowRadius="50"
+        android:text="Sign in "
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/cpc_admin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/cpc_admin"
+        android:layout_width="184dp"
+        android:layout_height="44dp"
+        android:shadowColor="#FFFFFF"
+        android:shadowDx="60"
+        android:shadowDy="20"
+        android:shadowRadius="50"
+        android:text="CPC Admin"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.867"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
