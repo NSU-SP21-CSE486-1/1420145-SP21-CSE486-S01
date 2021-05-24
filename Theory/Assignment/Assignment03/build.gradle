@@ -1,10 +1,18 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
-    repositories {
+    /*repositories {
         google()
         jcenter()
         google()  // Google's Maven repository
+    }*/
+    repositories {
+        google()
+        jcenter()
+        mavenCentral()
+
     }
+
+
     dependencies {
         classpath 'com.android.tools.build:gradle:4.2.1'
         classpath 'com.google.gms:google-services:4.3.5'
@@ -16,13 +24,24 @@ buildscript {
 
 
 
-allprojects {
+/*allprojects {
     repositories {
         google()
         jcenter()
         google()  // Google's Maven repository
     }
+}*/
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {url"https://jitpack.io"}
+
+
+    }
 }
+
+
 
 task clean(type: Delete) {
     delete rootProject.buildDir
