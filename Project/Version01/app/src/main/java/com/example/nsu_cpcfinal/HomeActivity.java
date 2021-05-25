@@ -31,4 +31,17 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent =new Intent(HomeActivity.this,LoginActivity.class);
         startActivity(intent);
     }
+
+    public void openCpcAdmin(View view) {
+
+        Intent intent =new Intent(HomeActivity.this,CPCAdmin_Activity.class);
+        startActivity(intent);
+
+
+    }
+
+    public void openCpcSignup(View view) {
+        Intent intent =new Intent(HomeActivity.this,CpcSignupActivity.class);
+        startActivity(intent);
+    }
 }
