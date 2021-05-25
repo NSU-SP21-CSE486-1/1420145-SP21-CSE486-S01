@@ -40,6 +40,7 @@
         app:layout_constraintBottom_toTopOf="@+id/cpc_admin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="openSigninActivity"
         tools:ignore="MissingConstraints" />
 
     <Button

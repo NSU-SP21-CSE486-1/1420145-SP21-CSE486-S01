@@ -26,4 +26,9 @@ public class HomeActivity extends AppCompatActivity {
         Intent intent =new Intent(HomeActivity.this,RegistrationActivity.class);
         startActivity(intent);
     }
+
+    public void openSigninActivity(View view) {
+        Intent intent =new Intent(HomeActivity.this,LoginActivity.class);
+        startActivity(intent);
+    }
 }
