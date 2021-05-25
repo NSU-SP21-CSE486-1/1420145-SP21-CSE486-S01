@@ -1,14 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="nameinput" type="id">name</item>
-    <item name="emailinputET" type="id">email</item>
-    <item name="idinputET" type="id">id</item>
-    <item name="passwoedinput" type="id">pass</item>
-    <item name="dept_name_imput" type="id">dept</item>
-    <item name="birthday_input" type="id">birthday</item>
-    <item name="phone_input" type="id">phone</item>
-    <item name="dept_spinner" type="id">dept</item>
-    <item name="nid_input" type="id">nid</item>
-    <item name="present_address_input" type="id">presentaddress</item>
-    <item name="permanent_address_input" type="id">permanent</item>
+    
 </resources>
