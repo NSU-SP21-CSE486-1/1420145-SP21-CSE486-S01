@@ -70,6 +70,7 @@ public class StudentListFragment extends Fragment {
         return inflater.inflate(R.layout.fragment_student_list, container, false);
     }
 
+
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);

@@ -5,42 +5,59 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg"
+
     tools:context=".CPCAdmin_Activity">
 
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
 
-    <Button
-        android:id="@+id/see_all_jobs"
-        android:layout_width="184dp"
-        android:layout_height="44dp"
-        android:shadowColor="#FFFFFF"
-        android:shadowDx="60"
-        android:shadowDy="20"
-        android:shadowRadius="50"
-        android:text="See all jobs"
-        app:cornerRadius="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.673" />
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-29dp"
+        tools:layout_editor_absoluteY="215dp">
 
-    <Button
-        android:id="@+id/post_job"
-        android:layout_width="184dp"
-        android:layout_height="44dp"
-        android:shadowColor="#FFFFFF"
-        android:shadowDx="60"
-        android:shadowDy="20"
-        android:shadowRadius="50"
-        android:text="Post_job"
-        app:cornerRadius="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/see_all_jobs"
+            android:layout_width="184dp"
+            android:layout_height="44dp"
+            android:onClick="openJobsPortal"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="60"
+            android:shadowDy="20"
+            android:shadowRadius="50"
+            android:text="See all jobs"
+            app:cornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.673" />
+
+        <Button
+            android:id="@+id/post_job"
+            android:layout_width="184dp"
+            android:layout_height="44dp"
+            android:layout_gravity="bottom"
+            android:onClick="postJob"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="60"
+            android:shadowDy="20"
+            android:shadowRadius="50"
+            android:text="Post_job"
+            app:cornerRadius="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.751" />
+
+
+    </FrameLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
