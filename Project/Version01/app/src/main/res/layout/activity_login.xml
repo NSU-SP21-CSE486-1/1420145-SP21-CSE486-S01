@@ -8,12 +8,7 @@
     tools:context=".LoginActivity">
 
 
-    <EditText
-        android:id="@+id/add_nameInput"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
 
-        android:hint="name"/>
     <EditText
         android:id="@+id/add_email_Input"
         android:layout_width="match_parent"
@@ -21,11 +16,17 @@
         android:hint=" email"
         />
     <EditText
+        android:id="@+id/add_pass_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="password"/>
+    <!--<EditText
         android:id="@+id/add_dept_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" dept"
-        />
+        />-->
     <Button
         android:id="@+id/login"
         android:layout_width="match_parent"
