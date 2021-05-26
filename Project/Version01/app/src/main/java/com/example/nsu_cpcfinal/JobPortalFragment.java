@@ -55,6 +55,7 @@ public class JobPortalFragment extends Fragment {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                jobListListner.onJobButtonClicl();
 
             }
         });
