@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+    tools:context=".CpcSignupActivity">
+
+    <EditText
+        android:id="@+id/add_cpc_email_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:hint="name"/>
+    <EditText
+        android:id="@+id/add_cpc_pass_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" email"
+        />
+    <!--<EditText
+        android:id="@+id/add_dept_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" dept"
+        />
+    <EditText
+        android:id="@+id/add_birthday_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" birthday"
+        />
+    <EditText
+        android:id="@+id/add_nid_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" nid"
+        />
+    <EditText
+        android:id="@+id/add_phone_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" phone"
+        />
+    <EditText
+        android:id="@+id/add_present_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" present"
+        />
+    <EditText
+        android:id="@+id/add_permanent_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" permanent"
+        />-->
+
+
+
+    <Button
+        android:id="@+id/cpc_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cpc Sign up"
+        />
+
+
+</LinearLayout>

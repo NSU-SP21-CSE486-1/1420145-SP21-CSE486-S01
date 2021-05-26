@@ -1,52 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AddJObFragment">
+    tools:context=".JobActivity">
 
 
     <EditText
-        android:id="@+id/add_Job_NameInput"
+        android:id="@+id/add_jobName_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Company Name"/>
-    <EditText
-        android:id="@+id/add_job_dept_Input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Dept"
-        />
 
-
+        android:hint=" Job name"/>
     <EditText
-        android:id="@+id/add_job_description_Input"
+        android:id="@+id/job_des_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Job Description"
-        />
-
-    <EditText
-        android:id="@+id/add_job_salary_Input"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="salary"
+        android:hint=" Job Description"
         />
     <EditText
-        android:id="@+id/add_job_status_Input"
+        android:id="@+id/job_salary_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Full Time or Internship"
+
+        android:hint="salary"/>
+    <EditText
+        android:id="@+id/job_Status_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" status"
         />
-
-
-
 
     <Button
-        android:id="@+id/job_addButton"
+        android:id="@+id/job_Post_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="add"
+        android:text="Post Job"
         />
+
+
+
+
 </LinearLayout>

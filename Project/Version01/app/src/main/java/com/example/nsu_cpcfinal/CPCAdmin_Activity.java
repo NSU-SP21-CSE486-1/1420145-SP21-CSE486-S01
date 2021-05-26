@@ -22,7 +22,7 @@ public class CPCAdmin_Activity extends AppCompatActivity {
 
     public void openJobsPortal(View view) {
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        /*btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,
@@ -31,7 +31,7 @@ public class CPCAdmin_Activity extends AppCompatActivity {
                 btn2.setVisibility(view.GONE);
             }
         });
-
+*/
 
     }
 
