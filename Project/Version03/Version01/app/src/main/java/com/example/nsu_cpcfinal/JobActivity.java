@@ -2,21 +2,41 @@ package com.example.nsu_cpcfinal;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
+
+import com.example.nsu_cpcfinal.Model.Job;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
+import java.text.DateFormat;
+import java.util.Date;
 
 public class JobActivity extends AppCompatActivity {
 
     private EditText jobname,jobdes,jobsalary,jobstatus;
     private Button jobPostBtn;
+    private FirebaseAuth mAuth;
+    private DatabaseReference mJobpost;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_job);
+
+        mAuth=FirebaseAuth.getInstance();
+        FirebaseUser muser=mAuth.getCurrentUser();
+        String uid=muser.getUid();
+
+        mJobpost=FirebaseDatabase.getInstance().getReference().child("Job Post").child("uid");
         postJob();
     }
 
@@ -47,7 +67,7 @@ public class JobActivity extends AppCompatActivity {
                    jobdes.setError("Required field");
 
                 }
-                if (TextUtils.isEmpty(salary){
+                if (TextUtils.isEmpty(salary)){
                     jobsalary.setError("Required field");
 
                 }
@@ -55,6 +75,12 @@ public class JobActivity extends AppCompatActivity {
                    jobstatus.setError("Required field");
 
                 }
+                String id=mJobpost.push().getKey();
+                String date= DateFormat.getDateInstance().format(new Date());
+                Job job= new Job(name,description,salary,status);
+                mJobpost.child(id).setValue(job);
+                Toast.makeText(JobActivity.this, "Successful", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getApplicationContext(),AllJobsActivity.class));
 
             }
         });
