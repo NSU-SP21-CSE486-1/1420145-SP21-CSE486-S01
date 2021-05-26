@@ -10,18 +10,18 @@
     tools:context=".CpcSignupActivity">
 
     <EditText
-        android:id="@+id/add_empNameInput"
+        android:id="@+id/add_cpc_email_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:hint="name"/>
     <EditText
-        android:id="@+id/add_email_Input"
+        android:id="@+id/add_cpc_pass_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" email"
         />
-    <EditText
+    <!--<EditText
         android:id="@+id/add_dept_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -56,15 +56,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" permanent"
-        />
+        />-->
 
 
 
     <Button
+        android:id="@+id/cpc_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="add"
-        android:id="@+id/addNewEmployee"/>
+        android:text="cpc login"
+        />
 
 
 </LinearLayout>

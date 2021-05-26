@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NSU_CPCFinal">
-        <activity android:name=".JobActivity"></activity>
+        <activity android:name=".CpcLoginActivity"></activity>
+        <activity android:name=".JobActivity" />
         <activity android:name=".CpcSignupActivity" />
         <activity android:name=".CPCAdmin_Activity" />
         <activity android:name=".RegistrationActivity" />

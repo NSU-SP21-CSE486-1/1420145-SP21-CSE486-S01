@@ -34,7 +34,7 @@ public class HomeActivity extends AppCompatActivity {
 
     public void openCpcAdmin(View view) {
 
-        Intent intent =new Intent(HomeActivity.this,CPCAdmin_Activity.class);
+        Intent intent =new Intent(HomeActivity.this,CpcLoginActivity.class);
         startActivity(intent);
 
 

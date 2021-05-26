@@ -17,43 +17,43 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
-public class LoginActivity extends AppCompatActivity {
-    private EditText  emailLog,passLog ;
-    private Button login_btn_log;
+public class CpcLoginActivity extends AppCompatActivity {
 
+    private EditText cpc_emailLog,cpc_passLog;
+    private Button cpc_btnLog;
     private FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_cpc_login);
         firebaseAuth=FirebaseAuth.getInstance();
-        loginFunction();
+
+        cpcLoginFunction();
     }
 
-    private void loginFunction(){
+    private void cpcLoginFunction(){
 
-
-        emailLog = findViewById(R.id.add_email_Input);
-        passLog = findViewById(R.id.add_pass_Input);
+        cpc_emailLog = findViewById(R.id.add_cpclogin_email_Input);
+        cpc_passLog= findViewById(R.id.add_cpclogin_pass_Input);
         /*deptLog =findViewById(R.id.add_dept_Input);*/
-        login_btn_log =findViewById(R.id.login);
+        cpc_btnLog =findViewById(R.id.cpc_login);
 
-        login_btn_log.setOnClickListener(new View.OnClickListener() {
+        cpc_btnLog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                String email =emailLog.getText().toString().trim();
-                String pass =passLog.getText().toString().trim();
+                String email =cpc_emailLog.getText().toString().trim();
+                String pass =cpc_passLog.getText().toString().trim();
                 /*String dept = deptLog.getText().toString().trim();*/
 
 
-                if (TextUtils.isEmpty(pass)){
-                    passLog.setError("Required field");
+                if (TextUtils.isEmpty(email)){
+                    cpc_emailLog.setError("Required field");
 
                 }
-                if (TextUtils.isEmpty(email)){
-                    emailLog.setError("Required field");
+                if (TextUtils.isEmpty(pass)){
+                    cpc_passLog.setError("Required field");
 
                 }
                 /*if (TextUtils.isEmpty(dept)){
@@ -66,8 +66,8 @@ public class LoginActivity extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
 
-                                Toast.makeText(LoginActivity.this, "Successful", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(getApplicationContext(),JobActivity.class));
+                                Toast.makeText(CpcLoginActivity.this, "Successful", Toast.LENGTH_SHORT).show();
+                                startActivity(new Intent(getApplicationContext(),CPCAdmin_Activity.class));
 
                             }
 
@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
 
                             @Override
                             public void onFailure(@NonNull Exception e) {
-                                Toast.makeText(LoginActivity.this, "Unsuccessful", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(CpcLoginActivity.this, "Unsuccessful", Toast.LENGTH_SHORT).show();
 
                             }
                         });
@@ -88,6 +88,7 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
 
 
 
