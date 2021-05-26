@@ -8,49 +8,49 @@
     tools:context=".RegistrationActivity">
 
     <EditText
-        android:id="@+id/add_empNameInput"
+        android:id="@+id/add_reg_NameInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
         android:hint="name"/>
     <EditText
-        android:id="@+id/add_email_Input"
+        android:id="@+id/add_reg_email_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" email"
         />
     <EditText
-        android:id="@+id/add_dept_Input"
+        android:id="@+id/add_reg_dept_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" dept"
         />
     <EditText
-        android:id="@+id/add_birthday_Input"
+        android:id="@+id/add_reg_birthday_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" birthday"
         />
     <EditText
-        android:id="@+id/add_nid_Input"
+        android:id="@+id/add_reg_nid_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" nid"
         />
     <EditText
-        android:id="@+id/add_phone_Input"
+        android:id="@+id/add_reg_phone_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" phone"
         />
     <EditText
-        android:id="@+id/add_present_Input"
+        android:id="@+id/add_reg_present_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" present"
         />
     <EditText
-        android:id="@+id/add_permanent_Input"
+        android:id="@+id/add_reg_permanent_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint=" permanent"
@@ -59,10 +59,11 @@
 
 
     <Button
+        android:id="@+id/add_reg_registration_Input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="add"
-        android:id="@+id/addNewEmployee"/>
+        android:text="Registration"
+        />
 
 
 </LinearLayout>
