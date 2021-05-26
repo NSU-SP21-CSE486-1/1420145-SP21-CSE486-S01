@@ -16,10 +16,10 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 
 public class JobPortalFragment extends Fragment {
-    /*private RecyclerView recyclerView;
+    private RecyclerView recyclerView;
     private FloatingActionButton floatingActionButton;
     private Context context;
-    private jobListListner jobListListner;*/
+    private jobListListner jobListListner;
 
 
 
@@ -31,8 +31,8 @@ public class JobPortalFragment extends Fragment {
     @Override
     public void onAttach(@NonNull @org.jetbrains.annotations.NotNull Context context) {
         super.onAttach(context);
-        /*this.context=context;
-        jobListListner= (JobPortalFragment.jobListListner) context;*/
+        this.context=context;
+        jobListListner= (JobPortalFragment.jobListListner) context;
     }
 
     @Override
@@ -50,18 +50,18 @@ public class JobPortalFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        /*recyclerView=view.findViewById(R.id.recyler);
+        recyclerView=view.findViewById(R.id.recyler);
         floatingActionButton=view.findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
-        });*/
+        });
     }
-    /*public interface jobListListner{
+    public interface jobListListner{
         void onJobButtonClicl();
-    }*/
+    }
 
 
 }

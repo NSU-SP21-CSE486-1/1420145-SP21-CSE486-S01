@@ -1,14 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AddJObFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+    <EditText
+        android:id="@+id/add_Job_NameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Company Name"/>
+    <EditText
+        android:id="@+id/add_job_dept_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dept"
+        />
+
+
+    <EditText
+        android:id="@+id/add_job_description_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Job Description"
+        />
+
+    <EditText
+        android:id="@+id/add_job_salary_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="salary"
+        />
+    <EditText
+        android:id="@+id/add_job_status_Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Time or Internship"
+        />
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="add"
+        android:id="@+id/addNewEmployee"/>
+</LinearLayout>

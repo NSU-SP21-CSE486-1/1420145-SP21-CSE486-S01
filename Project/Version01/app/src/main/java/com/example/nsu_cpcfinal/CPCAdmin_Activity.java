@@ -27,6 +27,8 @@ public class CPCAdmin_Activity extends AppCompatActivity {
             public void onClick(View v) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,
                         new JobPortalFragment()).commit();
+                btn1.setVisibility(view.GONE);
+                btn2.setVisibility(view.GONE);
             }
         });
 
@@ -34,6 +36,15 @@ public class CPCAdmin_Activity extends AppCompatActivity {
     }
 
     public void postJob(View view) {
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragmentContainer,
+                        new AddJObFragment()).commit();
+                btn1.setVisibility(view.GONE);
+                btn2.setVisibility(view.GONE);
+            }
+        });
 
     }
 }
